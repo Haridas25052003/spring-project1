@@ -20,9 +20,9 @@ public class App
         
         Student s=new Student();
         
-        s.setName("haridas shinde");
-    	s.setCity("Nanded");
-    	s.setPercentage(66.89);
+        s.setName("sneha shinde");
+    	s.setCity("pangra shinde");
+    	s.setPercentage(86.89);
     	
     	System.out.println(sd.insertStudent(s));
     }
