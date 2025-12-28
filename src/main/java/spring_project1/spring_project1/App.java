@@ -20,10 +20,10 @@ public class App
         
         Student s=new Student();
         
-        s.setName("sneha shinde");
-    	s.setCity("pangra shinde");
-    	s.setPercentage(86.89);
+//        s.setName("sneha shinde");
+//    	s.setCity("pangra shinde");
+//    	s.setPercentage(86.89);
     	
-    	System.out.println(sd.insertStudent(s));
+    	System.out.println(sd.deleteStudentById(2));
     }
 }
