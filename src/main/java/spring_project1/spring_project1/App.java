@@ -24,6 +24,8 @@ public class App
 //    	s.setCity("pangra shinde");
 //    	s.setPercentage(86.89);
     	
-    	System.out.println(sd.deleteStudentById(2));
+    	Student s1=sd.findStudentById(2);
+    	s.setName("haridas shinde");
+    	//System.out.println(sd.updateStudent(s1));
     }
 }
