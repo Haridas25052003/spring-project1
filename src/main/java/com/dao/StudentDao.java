@@ -17,5 +17,10 @@ public class StudentDao {
 		
 		return j.update(s1,new Object[] {s.getName(),s.getCity(),s.getPercentage()});
 	}
+	
+	public int deleteStudentById(int id) {
+		String sql="delete from student where id=?";
+		return j.update(sql,id);
+	}
 
 }
