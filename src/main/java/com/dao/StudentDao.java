@@ -1,4 +1,4 @@
-package com.utils;
+package com.dao;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 
@@ -8,10 +8,10 @@ public class StudentDao {
 	
 	private JdbcTemplate j;
 
-	public JdbcTemplate getJ() {
-		return j;
+	public void setJ(JdbcTemplate j) {
+		this.j = j;
 	}
-	
+
 	public int insertStudent(Student s) {
 		String s1="insert into student (name, city,percentage) values (?,?,?)";
 		

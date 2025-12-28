@@ -3,8 +3,8 @@ package spring_project1.spring_project1;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import com.dao.StudentDao;
 import com.model.Student;
-import com.utils.StudentDao;
 
 /**
  * Hello world!
